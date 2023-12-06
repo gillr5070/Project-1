@@ -1,0 +1,127 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Basic styling for the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f0f0f0;
+}
+
+/* Styling for sections */
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+section#home {
+  background-color: #ffd700; /* Golden yellow */
+  color: #333;
+}
+
+section#about {
+  background-color: #87ceeb; /* Sky blue */
+  color: #fff;
+}
+
+section#feedback {
+  background-color: #ffa07a; /* Light coral */
+  color: #333;
+}
+
+section#support {
+  background-color: #90ee90; /* Light green */
+  color: #333;
+}
+
+section#company {
+  background-color: #ff69b4; /* Hot pink */
+  color: #fff;
+}
+
+section h1 {
+  margin-bottom: 20px;
+  font-size: 2.5em; /* Larger heading size */
+}
+
+section img {
+  max-width: 200%;
+  height: auto;
+  margin-bottom: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Feedback form styling */
+#feedback-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ... (Rest of the CSS remains the same) */
+
+#feedback-form label,
+#feedback-form input,
+#feedback-form textarea,
+#feedback-form input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#feedback-form input[type="text"],
+#feedback-form input[type="email"],
+#feedback-form textarea {
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+#feedback-form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#feedback-form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}

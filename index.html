@@ -2,45 +2,72 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <!-- Your CSS styles or external CSS link can go here -->
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Barbour Cutting Designs</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Your content goes here -->
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="company.html">Company</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <section id="home">
-            <h2>Home Section</h2>
-            <p>This is the home section of my website.</p>
-        </section>
+  <main>
+    <section id="home">
+      <h1>Welcome to Barbour Cutting Designs!</h1>
+      <img src="hair1.png" alt="Welcome Image">
+      <p>Explore our services and designs.</p>
+    </section>
 
-        <section id="about">
-            <h2>About Section</h2>
-            <p>This is the about section.</p>
-        </section>
+    <section id="about">
+      <h1>About Barbour Cutting Designs</h1>
+      <img src="Hairstyle-2.png" alt="About Image">
+      <p>Welcome to Barbour Cutting Designs! We specialize in...</p>
+    </section>
 
-        <section id="contact">
-            <h2>Contact Section</h2>
-            <p>Contact information goes here.</p>
-        </section>
-    </main>
+    <section id="feedback">
+        <h1>Feedback</h1>
+        <form id="feedback-form">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name"><br><br>
+      
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email"><br><br>
+      
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+      
 
-    <!-- Your JavaScript scripts or external JS link can go here -->
-    <script src="scripts.js"></script>
+    <section id="support">
+      <h1>Support</h1>
+      <img src="hairstyle-7.png" alt="Support Image">
+      <p>If you need help, reach out to us at support@barbourcuttingdesigns.com</p>
+    </section>
+
+    <section id="company">
+      <h1>Company</h1>
+      <img src="hair01.png" alt="Company Image">
+      <p>Learn more about the company behind Barbour Cutting Designs.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Barbour Cutting Designs</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
